@@ -1,0 +1,215 @@
+.box .inner {
+    border-width: 0;
+}
+p {
+  margin: 0;
+	padding: 0;
+}
+#menu-top .inner {
+    background: white;
+    font-family: "Roboto", "Arial";
+    padding: 8px;
+}
+
+#menu-top .inner a  {
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    padding: 4px;
+
+}
+#menu-top .inner a:hover {
+    opacity: 0.9;
+}
+#menu-top .inner a.link-active {
+    border: 3px double #ddd;
+		border-radius: 6px;
+    background: #000;
+    color: #fff;
+}
+
+#logo img {
+    max-width: 100%;
+    max-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body {
+    background: #000;
+color: white;
+font-family: "Roboto", "Arial";
+    line-height: 26px;
+    font-size: 20px;
+}
+#body, #footer {
+color: white;
+}
+
+a {
+    color: #fff;
+}
+.body-home h1 {
+    display: none;
+}
+
+#intro .inner {
+    background: black;
+    color: white;
+    padding: 30px;
+    min-height: 300px;
+    background-position: center -220px;
+    font-size: 22pt;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 15px;
+    display: block;
+				height: 40px;
+				line-height: 40px;
+}
+
+.box .inner {
+    background: transparent;
+}
+
+.body-contatti #body {
+    text-align: left;
+}
+
+.list-blog {
+    text-align: left;
+}
+
+.blog-thumb {
+    max-width: 120px;
+}
+
+.blog-date {
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.blog-title {
+    margin-bottom: 10px;
+}
+
+
+.listamoto .dir-list-item {
+
+				width: 100%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				float: left;
+        border-bottom: 1px dashed #ddd;
+}
+
+.listamoto {
+				text-align: left;
+				}
+.listamoto h3 {
+				font-size: 30px;
+				line-height: 54px;
+
+}
+
+.listamoto .thumb {
+				float: left;
+				max-width: 400px;
+				margin: auto;
+				display: inline-block;
+margin-right: 20px;				
+				}
+.listamoto .moto-actions a {
+				display: inline-block;
+				padding: 0px;
+				text-transform: uppercase;
+				font-size: 16px;
+				border: 3px double #ddd;
+				background: #be1c07;
+				margin-top: 10px;
+				padding-left: 8px;
+				color: white;
+				padding-right: 8px;
+				border-radius: 6px;
+}
+
+.listamoto .moto-actions a:hover {
+				background: #730d09;
+}
+
+.list-blog-item {
+padding-top: 15px;
+padding-bottom: 15px;
+border-bottom: 1px dashed #ddd;
+float: left;
+clear: both;
+    width: 100%;
+}
+
+#menu-top {
+    border-top: 3px double #ddd;
+    border-bottom: 3px double #ddd;
+}
+
+.aforisma .inner,
+#intro .inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #e94;
+    padding: 24px;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 34px;
+    color: white;
+    font-family: "Georgia";
+    text-shadow: 0 0 0.5em #000, 0 0 0.5em #000;
+    background-position: center;
+    background-size: 100% auto;
+    line-height: 50px;
+}
+
+#intro .inner {
+    background-image:url("/eldorado/moto-guzzi-eldorado.png");
+}
+
+.aforisma .inner {
+    background: #730d09; 
+		line-height: 38px;
+}
+
+#footer {
+    border-top: 3px double #ddd;
+    margin-top: 15px;
+    padding-top: 15px;margin-bottom: 15px;
+}
+
+#mappa .inner {
+    border: 3px double #ddd;
+}
+
+.slide-title {
+				background: transparent !important;
+				bottom: 0px !important;
+}
+
+#admin-bar a {
+color: white !important;
+}
+
+#admin-bar a {
+display: inline-block;
+text-transform: uppercase;
+font-size: 0.6em;
+border-right: 1px solid white;
+padding: 0;
+padding-right:10px;
+padding-left: 10px;
+}
+
+#admin-bar .inner {
+border-bottom: 1px solid white;
+padding: 0;
+}
